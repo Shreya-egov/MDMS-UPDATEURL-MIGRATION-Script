@@ -1,0 +1,317 @@
+[2026-05-11 11:28:28] INFO : ════════════════════════════════════════════════════════════
+[2026-05-11 11:28:28] INFO : MDMS URL Migration Tool
+[2026-05-11 11:28:28] INFO : ════════════════════════════════════════════════════════════
+[2026-05-11 11:28:28] INFO : Mode          : LIVE
+[2026-05-11 11:28:28] INFO : Old URL       : /workbench-ui/employee
+[2026-05-11 11:28:28] INFO : New URL       : /chad/hcm-digit-ui/employee
+[2026-05-11 11:28:28] INFO : Schema codes  : ACCESSCONTROL-ACTIONS-TEST.actions-test
+[2026-05-11 11:28:28] INFO : Batch size    : 10
+[2026-05-11 11:28:28] INFO : Port-forward  : disabled
+[2026-05-11 11:28:28] INFO : ════════════════════════════════════════════════════════════
+[2026-05-11 11:28:28] INFO : 
+────────────────────────────────────────────────────────────
+[2026-05-11 11:28:28] INFO : Processing schema: ACCESSCONTROL-ACTIONS-TEST.actions-test
+[2026-05-11 11:28:28] INFO : ────────────────────────────────────────────────────────────
+[2026-05-11 11:28:28] INFO : [Search] schemaCode=ACCESSCONTROL-ACTIONS-TEST.actions-test attempt=1/3
+[2026-05-11 11:28:30] INFO : [Search] ✓ Fetched 1559 records for "ACCESSCONTROL-ACTIONS-TEST.actions-test"
+[2026-05-11 11:28:30] INFO : Backup saved → backups/ACCESSCONTROL-ACTIONS-TEST_actions-test__2026-05-11T05-58-30-096Z.json
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=6a9c6f54-777a-41ba-8e2b-57e97ef6e8e9  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hrms/inbox
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hrms/inbox
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=07f714ea-4f5d-429c-94c3-0ab9c4de4adc  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/manage-master-data
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/manage-master-data
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=2053385a-6ab5-45ff-ba6a-3ea4bd1ade6b  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/localisation-search
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/localisation-search
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=241ec3c7-97fc-4515-b3f4-53a5d2eeaac0  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/master/master-landing-screen
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/master/master-landing-screen
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=7b36d7d1-cf7d-4108-a789-e747e07e6d91  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/campaign-view
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/campaign-view
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=a7ac5590-5cc0-43c0-b38e-fdfeb63ef80a  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/boundary/home
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/boundary/home
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=c6af648b-4927-4646-94ec-b15fb49fcac0  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/campaign-home
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/campaign-home
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=b7b2c7f2-d677-4810-a788-eda5c28c3b2c  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/my-campaign-new
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/my-campaign-new
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=4cf37436-4c3e-4a70-bcb9-c23b45abfdbf  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/setup-from-microplan
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/setup-from-microplan
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=7e0599ee-a6d3-4f02-8d33-e66b31b55345  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/setup-campaign
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/setup-campaign
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=286d9a22-b877-40c0-a4eb-c28b58f4c120  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/boundary/home?type=campaign
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/boundary/home?type=campaign
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=7f8c51fc-bf81-4fda-9b61-e6779b6045e7  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/my-campaign-new
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/my-campaign-new
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=312461b5-35e3-4198-a0d3-bdc6157c4deb  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/setup-campaign
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/setup-campaign
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=39652181-d374-4040-8444-5f22f442c5f2  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/campaign-home
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/campaign-home
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=9a348187-192a-4ba4-b743-7ad6a5e61bd6  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/my-campaign-new
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/my-campaign-new
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=b0625858-c7a3-4b00-b931-53c4a97b2c82  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/my-campaign
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/my-campaign
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=00f875e6-95fe-48f5-a772-fd5ba04fc9cd  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/my-campaign
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/my-campaign
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=af39f6dd-c07f-4734-b0b2-b3beb9820ad1  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/campaign/campaign-home
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/campaign/campaign-home
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=231c64e8-5149-4fe7-b81a-4143e15ed124  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectTask
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectTask
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=0e7d283c-9716-41b0-9121-8ef4dbc63839  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ROLEACTIONS&masterName=roleactions
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ROLEACTIONS&masterName=roleactions
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=122e7cdd-30af-484e-9d83-7c5cfece1e7e  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchHouseholdConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchHouseholdConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=4b1bb4a6-3f89-4200-bef0-937e90eb9580  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=bb811e8f-382f-4ec7-8022-b41784086fac  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProductVariantConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProductVariantConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=dd8af65d-97a3-4010-b7da-476d732ffba4  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectBeneficiaryConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectBeneficiaryConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=976610e6-7153-4a58-8fa1-7b9b30764135  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectStaffConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectStaffConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=50e70bdf-b8cf-4292-bf14-43ac79e8f25f  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectTaskConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectTaskConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=c70239ce-7f2c-406e-9455-0d06036c8f4a  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProductConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProductConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=f3207a4e-ef5b-4bc3-be07-c1f5a542e41b  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchFacilityConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchFacilityConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=d24343e7-6d69-460b-acd5-800d67abc009  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectResourceConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectResourceConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=fb6e6e06-9346-403c-9e92-4560bd415dde  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=HCM-ADDITIONAL-FIELD-SCHEMAS&masterName=additionalFieldSchemas
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=HCM-ADDITIONAL-FIELD-SCHEMAS&masterName=additionalFieldSchemas
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=3745717f-c2a4-472e-a082-97791a46e297  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=HCM-FIELD-APP-CONFIG&masterName=appConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=HCM-FIELD-APP-CONFIG&masterName=appConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=ab8d4e47-6b5e-4670-9cc1-df3fe3d077cc  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=HCM-PROJECT&masterName=projectConfiguration
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=HCM-PROJECT&masterName=projectConfiguration
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=5fa070bb-d899-4b02-a387-a92919973c8d  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=HCM-PROJECT-TYPES&masterName=projectTypes
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=HCM-PROJECT-TYPES&masterName=projectTypes
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=bf7c6ae5-04e5-4ccc-ac5b-fe55a79475cd  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=HCM-SERVICE-REGISTRY&masterName=serviceRegistry
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=HCM-SERVICE-REGISTRY&masterName=serviceRegistry
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=ac466134-bad6-40da-bc0f-e257945c2f02  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=HCM-SERVICE-REGISTRY&masterName=serviceRegistry
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=HCM-SERVICE-REGISTRY&masterName=serviceRegistry
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=c3589ac9-b687-427a-adc7-2eac6136d349  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=HCM-SERVICE-REGISTRY&masterName=serviceRegistry
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=HCM-SERVICE-REGISTRY&masterName=serviceRegistry
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=2f13369a-c098-42a6-bbea-7f5995b5a89b  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectFacilityConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectFacilityConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=63912db9-fe6b-4b96-b8e7-64d184b88d72  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=ad8a088c-ec5f-4dc5-9d72-6dcbadb85ca0  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/mdms-search-v2?moduleName=HCM-PROJECT-TYPES&masterName=projectTypes
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/mdms-search-v2?moduleName=HCM-PROJECT-TYPES&masterName=projectTypes
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=a5e75c16-2b41-4c39-a708-43e22cb79a4e  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=72d23346-aa46-47a5-9951-53fe6a88b741  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/help-screen/basic-setup
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/help-screen/basic-setup
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=fdcf4fe4-8b23-4070-a860-710ef836827a  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProductConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProductConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=9c7d127c-1129-43f8-84e7-06b7e1708994  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProductVariantConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProductVariantConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=e7ca1632-757e-44a5-9c29-14fc65cbff56  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/boundary
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/boundary
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=1df37421-fc7d-423a-9825-8cc6869b3a00  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchProjectConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=9d7dd44b-b6f0-4fd8-813a-3a6dd5957acf  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/project
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/project
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=7324748c-5824-4d78-9cb5-226d38998570  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchFacilityConfig
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/utilities/search/commonHCMUiConfig/SearchFacilityConfig
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=28bfa520-9a6b-4c80-9e24-8c17c3d90d86  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/facility
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/facility
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=3c2fb2fe-ca2b-4934-8142-b06af11a37bb  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/campaign
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/campaign
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=6ab20f61-79c2-402b-b0cc-4ebeecffa42d  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/workbench/localisation-search
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/workbench/localisation-search
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=bfa6fe18-8ca6-4cbb-bfde-05350d19efa3  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hrms/search
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hrms/search
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=19e22204-02e2-4c66-8cd6-cda9c9e6e318  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/user
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/user
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=40eb4eef-ba5e-4457-ab8c-6216175c7689  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/help-screen/coded-user
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/help-screen/coded-user
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=b710a521-c957-4668-89ad-ccf000985fa6  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/help-screen/check-list
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/help-screen/check-list
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=1cebfda8-7623-47df-91c1-5f7cf32953a7  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hcmworkbench/inbox
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hcmworkbench/inbox
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=689adbde-3773-41a1-82a6-15c2ebabed47  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hrms/inbox
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hrms/inbox
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=3e5e5f84-9df3-4e56-aff9-e605aa7c1b60  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hrms/create
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hrms/create
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=827182f7-6a82-4753-8dcd-6d3c873cc8b0  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hrms/inbox
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hrms/inbox
+[2026-05-11 11:28:30] INFO :   [REPLACE] id=20306cb2-d647-43e5-b144-18f8618e7efd  field=navigationURL
+[2026-05-11 11:28:30] INFO :     old → /workbench-ui/employee/hrms/create
+[2026-05-11 11:28:30] INFO :     new → /chad/hcm-digit-ui/employee/hrms/create
+[2026-05-11 11:28:30] INFO : [Update] ✓ SUCCESS id=6a9c6f54-777a-41ba-8e2b-57e97ef6e8e9 HTTP=202
+[2026-05-11 11:28:30] INFO : [Update] ✓ SUCCESS id=286d9a22-b877-40c0-a4eb-c28b58f4c120 HTTP=202
+[2026-05-11 11:28:30] INFO : [Update] ✓ SUCCESS id=a7ac5590-5cc0-43c0-b38e-fdfeb63ef80a HTTP=202
+[2026-05-11 11:28:30] INFO : [Update] ✓ SUCCESS id=7b36d7d1-cf7d-4108-a789-e747e07e6d91 HTTP=202
+[2026-05-11 11:28:30] INFO : [Update] ✓ SUCCESS id=07f714ea-4f5d-429c-94c3-0ab9c4de4adc HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=7e0599ee-a6d3-4f02-8d33-e66b31b55345 HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=2053385a-6ab5-45ff-ba6a-3ea4bd1ade6b HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=b7b2c7f2-d677-4810-a788-eda5c28c3b2c HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=c6af648b-4927-4646-94ec-b15fb49fcac0 HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=241ec3c7-97fc-4515-b3f4-53a5d2eeaac0 HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=4cf37436-4c3e-4a70-bcb9-c23b45abfdbf HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=7f8c51fc-bf81-4fda-9b61-e6779b6045e7 HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=312461b5-35e3-4198-a0d3-bdc6157c4deb HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=39652181-d374-4040-8444-5f22f442c5f2 HTTP=202
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=9a348187-192a-4ba4-b743-7ad6a5e61bd6 HTTP=202
+[2026-05-11 11:28:31] WARN : [Update] Attempt 1/3 failed — id=231c64e8-5149-4fe7-b81a-4143e15ed124 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:31] INFO : [Update] Retrying 231c64e8-5149-4fe7-b81a-4143e15ed124 in 1000ms…
+[2026-05-11 11:28:31] WARN : [Update] Attempt 1/3 failed — id=af39f6dd-c07f-4734-b0b2-b3beb9820ad1 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:31] INFO : [Update] Retrying af39f6dd-c07f-4734-b0b2-b3beb9820ad1 in 1000ms…
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=b0625858-c7a3-4b00-b931-53c4a97b2c82 HTTP=202
+[2026-05-11 11:28:31] WARN : [Update] Attempt 1/3 failed — id=0e7d283c-9716-41b0-9121-8ef4dbc63839 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:31] INFO : [Update] Retrying 0e7d283c-9716-41b0-9121-8ef4dbc63839 in 1000ms…
+[2026-05-11 11:28:31] WARN : [Update] Attempt 1/3 failed — id=122e7cdd-30af-484e-9d83-7c5cfece1e7e status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:31] INFO : [Update] Retrying 122e7cdd-30af-484e-9d83-7c5cfece1e7e in 1000ms…
+[2026-05-11 11:28:31] WARN : [Update] Attempt 1/3 failed — id=4b1bb4a6-3f89-4200-bef0-937e90eb9580 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:31] INFO : [Update] Retrying 4b1bb4a6-3f89-4200-bef0-937e90eb9580 in 1000ms…
+[2026-05-11 11:28:31] WARN : [Update] Attempt 1/3 failed — id=bb811e8f-382f-4ec7-8022-b41784086fac status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:31] INFO : [Update] Retrying bb811e8f-382f-4ec7-8022-b41784086fac in 1000ms…
+[2026-05-11 11:28:31] WARN : [Update] Attempt 1/3 failed — id=dd8af65d-97a3-4010-b7da-476d732ffba4 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:31] INFO : [Update] Retrying dd8af65d-97a3-4010-b7da-476d732ffba4 in 1000ms…
+[2026-05-11 11:28:31] WARN : [Update] Attempt 1/3 failed — id=976610e6-7153-4a58-8fa1-7b9b30764135 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:31] INFO : [Update] Retrying 976610e6-7153-4a58-8fa1-7b9b30764135 in 1000ms…
+[2026-05-11 11:28:31] INFO : [Update] ✓ SUCCESS id=00f875e6-95fe-48f5-a772-fd5ba04fc9cd HTTP=202
+[2026-05-11 11:28:32] INFO : [Update] ✓ SUCCESS id=50e70bdf-b8cf-4292-bf14-43ac79e8f25f HTTP=202
+[2026-05-11 11:28:32] INFO : [Update] ✓ SUCCESS id=c70239ce-7f2c-406e-9455-0d06036c8f4a HTTP=202
+[2026-05-11 11:28:32] INFO : [Update] ✓ SUCCESS id=f3207a4e-ef5b-4bc3-be07-c1f5a542e41b HTTP=202
+[2026-05-11 11:28:32] INFO : [Update] ✓ SUCCESS id=d24343e7-6d69-460b-acd5-800d67abc009 HTTP=202
+[2026-05-11 11:28:32] INFO : [Update] ✓ SUCCESS id=fb6e6e06-9346-403c-9e92-4560bd415dde HTTP=202
+[2026-05-11 11:28:32] INFO : [Update] ✓ SUCCESS id=3745717f-c2a4-472e-a082-97791a46e297 HTTP=202
+[2026-05-11 11:28:32] INFO : [Update] ✓ SUCCESS id=ab8d4e47-6b5e-4670-9cc1-df3fe3d077cc HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=5fa070bb-d899-4b02-a387-a92919973c8d HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=231c64e8-5149-4fe7-b81a-4143e15ed124 HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=af39f6dd-c07f-4734-b0b2-b3beb9820ad1 HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=bb811e8f-382f-4ec7-8022-b41784086fac HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=0e7d283c-9716-41b0-9121-8ef4dbc63839 HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=976610e6-7153-4a58-8fa1-7b9b30764135 HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=122e7cdd-30af-484e-9d83-7c5cfece1e7e HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=dd8af65d-97a3-4010-b7da-476d732ffba4 HTTP=202
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=4b1bb4a6-3f89-4200-bef0-937e90eb9580 HTTP=202
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=ac466134-bad6-40da-bc0f-e257945c2f02 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying ac466134-bad6-40da-bc0f-e257945c2f02 in 1000ms…
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=c3589ac9-b687-427a-adc7-2eac6136d349 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying c3589ac9-b687-427a-adc7-2eac6136d349 in 1000ms…
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=ad8a088c-ec5f-4dc5-9d72-6dcbadb85ca0 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying ad8a088c-ec5f-4dc5-9d72-6dcbadb85ca0 in 1000ms…
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=2f13369a-c098-42a6-bbea-7f5995b5a89b status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying 2f13369a-c098-42a6-bbea-7f5995b5a89b in 1000ms…
+[2026-05-11 11:28:33] INFO : [Update] ✓ SUCCESS id=bf7c6ae5-04e5-4ccc-ac5b-fe55a79475cd HTTP=202
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=63912db9-fe6b-4b96-b8e7-64d184b88d72 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying 63912db9-fe6b-4b96-b8e7-64d184b88d72 in 1000ms…
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=a5e75c16-2b41-4c39-a708-43e22cb79a4e status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying a5e75c16-2b41-4c39-a708-43e22cb79a4e in 1000ms…
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=72d23346-aa46-47a5-9951-53fe6a88b741 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying 72d23346-aa46-47a5-9951-53fe6a88b741 in 1000ms…
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=fdcf4fe4-8b23-4070-a860-710ef836827a status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying fdcf4fe4-8b23-4070-a860-710ef836827a in 1000ms…
+[2026-05-11 11:28:33] WARN : [Update] Attempt 1/3 failed — id=9c7d127c-1129-43f8-84e7-06b7e1708994 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:33] INFO : [Update] Retrying 9c7d127c-1129-43f8-84e7-06b7e1708994 in 1000ms…
+[2026-05-11 11:28:34] INFO : [Update] ✓ SUCCESS id=e7ca1632-757e-44a5-9c29-14fc65cbff56 HTTP=202
+[2026-05-11 11:28:34] INFO : [Update] ✓ SUCCESS id=1df37421-fc7d-423a-9825-8cc6869b3a00 HTTP=202
+[2026-05-11 11:28:34] INFO : [Update] ✓ SUCCESS id=9d7dd44b-b6f0-4fd8-813a-3a6dd5957acf HTTP=202
+[2026-05-11 11:28:34] INFO : [Update] ✓ SUCCESS id=7324748c-5824-4d78-9cb5-226d38998570 HTTP=202
+[2026-05-11 11:28:34] INFO : [Update] ✓ SUCCESS id=28bfa520-9a6b-4c80-9e24-8c17c3d90d86 HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=ac466134-bad6-40da-bc0f-e257945c2f02 HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=2f13369a-c098-42a6-bbea-7f5995b5a89b HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=c3589ac9-b687-427a-adc7-2eac6136d349 HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=63912db9-fe6b-4b96-b8e7-64d184b88d72 HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=a5e75c16-2b41-4c39-a708-43e22cb79a4e HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=ad8a088c-ec5f-4dc5-9d72-6dcbadb85ca0 HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=72d23346-aa46-47a5-9951-53fe6a88b741 HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=3c2fb2fe-ca2b-4934-8142-b06af11a37bb HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=9c7d127c-1129-43f8-84e7-06b7e1708994 HTTP=202
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=fdcf4fe4-8b23-4070-a860-710ef836827a HTTP=202
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=b710a521-c957-4668-89ad-ccf000985fa6 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying b710a521-c957-4668-89ad-ccf000985fa6 in 1000ms…
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=bfa6fe18-8ca6-4cbb-bfde-05350d19efa3 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying bfa6fe18-8ca6-4cbb-bfde-05350d19efa3 in 1000ms…
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=1cebfda8-7623-47df-91c1-5f7cf32953a7 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying 1cebfda8-7623-47df-91c1-5f7cf32953a7 in 1000ms…
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=19e22204-02e2-4c66-8cd6-cda9c9e6e318 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying 19e22204-02e2-4c66-8cd6-cda9c9e6e318 in 1000ms…
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=40eb4eef-ba5e-4457-ab8c-6216175c7689 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying 40eb4eef-ba5e-4457-ab8c-6216175c7689 in 1000ms…
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=689adbde-3773-41a1-82a6-15c2ebabed47 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying 689adbde-3773-41a1-82a6-15c2ebabed47 in 1000ms…
+[2026-05-11 11:28:35] INFO : [Update] ✓ SUCCESS id=6ab20f61-79c2-402b-b0cc-4ebeecffa42d HTTP=202
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=3e5e5f84-9df3-4e56-aff9-e605aa7c1b60 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying 3e5e5f84-9df3-4e56-aff9-e605aa7c1b60 in 1000ms…
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=827182f7-6a82-4753-8dcd-6d3c873cc8b0 status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying 827182f7-6a82-4753-8dcd-6d3c873cc8b0 in 1000ms…
+[2026-05-11 11:28:35] WARN : [Update] Attempt 1/3 failed — id=20306cb2-d647-43e5-b144-18f8618e7efd status=429 msg=Request failed with status code 429
+[2026-05-11 11:28:35] INFO : [Update] Retrying 20306cb2-d647-43e5-b144-18f8618e7efd in 1000ms…
+[2026-05-11 11:28:36] INFO : [Update] ✓ SUCCESS id=bfa6fe18-8ca6-4cbb-bfde-05350d19efa3 HTTP=202
+[2026-05-11 11:28:36] INFO : [Update] ✓ SUCCESS id=40eb4eef-ba5e-4457-ab8c-6216175c7689 HTTP=202
+[2026-05-11 11:28:36] INFO : [Update] ✓ SUCCESS id=19e22204-02e2-4c66-8cd6-cda9c9e6e318 HTTP=202
+[2026-05-11 11:28:37] INFO : [Update] ✓ SUCCESS id=1cebfda8-7623-47df-91c1-5f7cf32953a7 HTTP=202
+[2026-05-11 11:28:37] INFO : [Update] ✓ SUCCESS id=b710a521-c957-4668-89ad-ccf000985fa6 HTTP=202
+[2026-05-11 11:28:37] INFO : [Update] ✓ SUCCESS id=689adbde-3773-41a1-82a6-15c2ebabed47 HTTP=202
+[2026-05-11 11:28:37] INFO : [Update] ✓ SUCCESS id=3e5e5f84-9df3-4e56-aff9-e605aa7c1b60 HTTP=202
+[2026-05-11 11:28:37] INFO : [Update] ✓ SUCCESS id=827182f7-6a82-4753-8dcd-6d3c873cc8b0 HTTP=202
+[2026-05-11 11:28:37] INFO : [Update] ✓ SUCCESS id=20306cb2-d647-43e5-b144-18f8618e7efd HTTP=202
+[2026-05-11 11:28:37] INFO : CSV report saved → reports/migration-report-2026-05-11T05-58-37-362Z.csv
+[2026-05-11 11:28:37] INFO : ════════════════════════════════════════════════════════════
+[2026-05-11 11:28:37] INFO : MIGRATION SUMMARY
+[2026-05-11 11:28:37] INFO : ════════════════════════════════════════════════════════════
+[2026-05-11 11:28:37] INFO : Mode                   : LIVE
+[2026-05-11 11:28:37] INFO : Total records fetched  : 1559
+[2026-05-11 11:28:37] INFO : Records modified       : 59
+[2026-05-11 11:28:37] INFO : Records skipped        : 1500
+[2026-05-11 11:28:37] INFO : Total URL replacements : 59
+[2026-05-11 11:28:37] INFO : Updates successful     : 59
+[2026-05-11 11:28:37] INFO : Updates failed         : 0
+[2026-05-11 11:28:37] INFO : ════════════════════════════════════════════════════════════
